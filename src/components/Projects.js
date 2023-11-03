@@ -1,4 +1,4 @@
-import { Text, Paper, Container, List, Title, Center, Image, SimpleGrid, Badge, Divider } from '@mantine/core';
+import { Text, Paper, Container, Title, SimpleGrid, Divider } from '@mantine/core';
 import { ReactComponent as GithubLogo } from '../images/github.svg';
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";

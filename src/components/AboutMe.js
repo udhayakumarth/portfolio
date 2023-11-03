@@ -1,4 +1,4 @@
-import { Container, List, Title, Text, Center, Image, SimpleGrid, Badge, Divider } from '@mantine/core';
+import { Container, Text, Center, Image, SimpleGrid, Divider } from '@mantine/core';
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";

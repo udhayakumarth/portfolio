@@ -1,7 +1,6 @@
 import { Flex, Text, Center } from '@mantine/core';
 import { ReactComponent as GithubLogo } from '../images/github.svg';
 import { ReactComponent as LinkedIn } from '../images/linkedin.svg';
-import { ReactComponent as Mail } from '../images/envelope-solid.svg';
 
 export default function Footer() {
     const openInNewTab = url => {

@@ -1,4 +1,4 @@
-import { List, Timeline, Text, Divider, Container, Avatar, SimpleGrid } from '@mantine/core';
+import {Timeline, Text, Divider, Container, Avatar, SimpleGrid } from '@mantine/core';
 import { ReactComponent as IdCard } from '../images/Typing-bro.svg';
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";

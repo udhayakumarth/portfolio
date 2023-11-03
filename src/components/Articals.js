@@ -1,4 +1,4 @@
-import { Text, Paper, Container, Image, Title, Center, SimpleGrid, Badge, Divider } from '@mantine/core';
+import { Text, Paper, Container, Image, Title, SimpleGrid, Divider } from '@mantine/core';
 import { ReactComponent as LinkedIn } from '../images/linkedin.svg';
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1de28f8c.css",
+    "main.js": "/portfolio/static/js/main.878a768c.js",
+    "static/media/Typing-bro.svg": "/portfolio/static/media/Typing-bro.71e4323e70f6fcfcbd694acc68362335.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.f53a6b67e2b98b4a1dd143c7f52e1d79.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.319cc36c49a631253d48c25b31aa30c9.svg",
+    "index.html": "/portfolio/index.html",
+    "main.1de28f8c.css.map": "/portfolio/static/css/main.1de28f8c.css.map",
+    "main.878a768c.js.map": "/portfolio/static/js/main.878a768c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1de28f8c.css",
+    "static/js/main.878a768c.js"
+  ]
+}

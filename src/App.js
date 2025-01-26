@@ -1,7 +1,7 @@
-import HomePage from "./pages/HomePage";
+import Portfolio from "./pages/Portfolio";
 function App() {
   return (
-    <HomePage></HomePage>
+    <Portfolio></Portfolio>
   );
 }
 

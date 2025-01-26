@@ -1,22 +1,7 @@
-import { Group, Avatar, Badge, Title, Text, ActionIcon, UnstyledButton, SimpleGrid } from '@mantine/core';
+import { Group, Avatar, Title, Text, ActionIcon, UnstyledButton, SimpleGrid } from '@mantine/core';
 import { IconBrandGithub, IconBrandLinkedin, IconBrandLeetcode,   IconCode,   IconDatabase,   IconNetwork,   IconSpy,   IconWorldWww,   IconCoffee,   IconBrandJavascript,   IconApi,   IconBrandAws } from '@tabler/icons-react';
 
-const skillData = [
-    { name: "Programming" },
-    { name: "Database" },
-    { name: "Network" },
-    { name: "Security" },
-    { name: "Web Application" },
-    { name: "Java" },
-    { name: "JavaScript" },
-    { name: "Spring Boot" },
-    { name: "Rest Api" },
-    { name: "React" },
-    { name: "Aws" },
-    { name: "git" }
-]
-
-const mockdata = [
+const skilldata = [
     { title: 'Programming', icon: IconCode, color: 'violet' },
     { title: 'Database', icon: IconDatabase, color: 'indigo' },
     { title: 'Network', icon: IconNetwork, color: 'blue' },
@@ -29,11 +14,8 @@ const mockdata = [
 ];
 
 export default function Header() {
-    const skills = skillData.map((skill) => (
-        <Badge style={{ color: "#999999" }} color="gray" size="sm">{skill.name}</Badge>
-    ));
 
-    const items = mockdata.map((item) => (
+    const items = skilldata.map((item) => (
         <UnstyledButton key={item.title}>
             <item.icon color={[item.color][6]} size={32} />
             <Text size="xs" mt={7}>
@@ -90,7 +72,6 @@ export default function Header() {
                         </a>
                     </Group>
                 </div>
-
             </Group>
             <Text c="dimmed" mt="md" style={{ paddingBottom: "4px" }}>
                 A software engineer with 1 year of experience specializing in back-end web development. Skilled in designing, implementing, and optimizing server-side applications. Below are the things I'm good at.

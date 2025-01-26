@@ -1,4 +1,4 @@
-import { Text, Title, Box, Group, ActionIcon } from "@mantine/core";
+import { Text, Title, Box } from "@mantine/core";
 import { IconAt, IconPhone, IconMapPin } from '@tabler/icons-react';
 
 

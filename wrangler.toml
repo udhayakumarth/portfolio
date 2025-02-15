@@ -2,10 +2,6 @@ name = "portfolio"
 compatibility_date = "2025-02-15"  # Set to today's date
 type = "javascript"
 
-[build]
-command = "npm run build"
-upload = { format = "directory", dir = "./build" }
-
 [site]
 bucket = "./build"
 entry-point = "workers-site"  # Required for Cloudflare Pages
